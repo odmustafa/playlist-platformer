@@ -1,0 +1,13 @@
+.main-content {
+  text-align: left;
+}
+
+.auth-section h2 {
+  color: #1db954;
+  margin-bottom: 1rem;
+}
+
+.auth-section p {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
