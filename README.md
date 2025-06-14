@@ -48,8 +48,9 @@ A desktop application that bridges Spotify playlists with Soulseek peer-to-peer 
    ```
 
 4. **Configure Spotify credentials**
-   - The `spotify.settings.json` file already contains the necessary credentials
-   - Create a Spotify app at https://developer.spotify.com/dashboard if needed
+   - Copy the template: `cp spotify.settings.json.template spotify.settings.json`
+   - Follow the [Spotify Setup Guide](docs/SPOTIFY_SETUP.md) to get your API credentials
+   - Add your Client ID and Secret to `spotify.settings.json`
 
 5. **Run in development mode**
    ```bash
@@ -79,7 +80,8 @@ playlist-platformer/
 │   ├── components/               # UI components
 │   ├── services/                 # API services
 │   └── utils/                    # Utility functions
-├── spotify.settings.json         # Spotify API credentials
+├── spotify.settings.json.template # Spotify API credentials template
+├── .gitignore                  # Git ignore file (includes sensitive files)
 └── README.md
 ```
 
